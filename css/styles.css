@@ -16,9 +16,23 @@
   --background-color-btn-unactive: #f5f4fa;
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* SEKCJA POZYCJONOWANIA STRONY */
+.container {
+  width: 1200px;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--font-color);
+  width: 1600px;
 }
 
 .logo {

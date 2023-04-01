@@ -184,6 +184,8 @@ body {
 /* SEKCJA TEKSTOWA */
 .text-part-list {
   list-style: none;
+  display: flex;
+  gap: 30px;
 }
 
 .text-part-list-item h3 {
@@ -199,12 +201,15 @@ body {
 /* SEKCJA CZYM SIE ZAJMUJEMY */
 .what-do-header,
 .team-header {
+  margin-bottom: 50px;
   text-align: center;
   font-weight: 700;
   font-size: 36px;
 }
 
 .what-do-list {
+  display: flex;
+  gap: 30px;
   list-style: none;
 }
 
@@ -215,10 +220,23 @@ body {
 
 .team-list {
   list-style: none;
+  display: flex;
+  gap: 30px;
 }
+
+.team-description {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+border: 1px solid var(--background-color-border);
+background-color: var(--background-color-main);
+}
+
 
 .team-name,
 .team-profession {
+  display: flex;
+  justify-content: center;
   text-align: center;
   /* jeszcze nie dziala */
   font-size: 16px;
@@ -226,6 +244,7 @@ body {
 
 .team-name {
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .team-profession {

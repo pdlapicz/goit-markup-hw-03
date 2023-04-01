@@ -23,22 +23,26 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- logo posiada na początku VV, które nachodzi na siebie, dlatego klasa vv-sign -->
-      <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
-      <nav>
-        <ul class="navigation">
-          <!--menu nawigacyjne-->
-          <li><a class="navigation-link" href="./index.html">Agencja</a></li>
-          <li><a class="navigation-link" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="navigation-link" href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <div class="contact-header">
-        <!--linki kontaktowe-->
-        <a class="contact-header-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contact-header-item" href="tel:+48111111111">+48 111 111 111</a>
-      </div>
+      <section class="container head-section">
+        <div class="logo-header">
+          <a class="logo" href="./index.html">Web<span class="logo-header-color">Studio</span></a>
+        </div>
+        <nav class="nav-header">
+          <ul class="navigation">
+            <!--menu nawigacyjne-->
+            <li><a class="navigation-link" href="./index.html">Agencja</a></li>
+            <li><a class="navigation-link" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="navigation-link" href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div class="contact-header">
+          <!--linki kontaktowe-->
+          <a class="contact-header-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contact-header-item" href="tel:+48111111111">+48 111 111 111</a>
+        </div>
+      </section>
     </header>
     <main>
       <div class="filter">
@@ -158,17 +162,21 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="./index.html">Web<span class="logo-footer">Studio</span></a>
-      <address class="contact-footer">
-        <a
-          class="contact-footer-address"
-          href="https://goo.gl/maps/rVzVEB22XSJ6FxRE9"
-          target="_blank"
-          >m. Warszawa, Aleje Jerozolimskie 21</a
+      <div class="container">
+        <a class="logo logo-footer" href="./index.html"
+          >Web<span class="logo-footer-color">Studio</span></a
         >
-        <a class="contact-footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contact-footer-link" href="tel:+48111111111">+48 111 111 111</a>
-      </address>
+        <address class="contact-footer">
+          <a
+            class="contact-footer-address"
+            href="https://goo.gl/maps/rVzVEB22XSJ6FxRE9"
+            target="_blank"
+            >m. Warszawa, Aleje Jerozolimskie 21</a
+          >
+          <a class="contact-footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contact-footer-link" href="tel:+48111111111">+48 111 111 111</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

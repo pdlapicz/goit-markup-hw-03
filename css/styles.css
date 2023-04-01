@@ -28,11 +28,25 @@ ul {
 /* SEKCJA POZYCJONOWANIA STRONY */
 .container {
   width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--font-color);
   width: 1600px;
+}
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.head-section {
+  display: flex;
 }
 
 .logo {
@@ -42,17 +56,31 @@ body {
   font-weight: 700;
   color: var(--font-color-logo);
 }
-
 .logo-header {
+  padding-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo-header-color {
   color: var(--font-color-logo-header);
 }
 
-.logo-footer {
+.logo-footer-color {
   color: var(--font-color-logo-footer);
+}
+
+.nav-header,
+.contact-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation {
   list-style: none;
+  display: flex;
+  gap: 46px;
+  padding-right: 371px;
 }
 
 .navigation-link {
@@ -66,6 +94,10 @@ body {
   color: var(--active-color);
 }
 
+.contact-header {
+  display: flex;
+  gap: 50px;
+}
 .contact-header-item {
   text-decoration: none;
   color: var(--font-color-contact-header);
@@ -80,6 +112,19 @@ body {
 
 .footer {
   background-color: var(--background-color-section);
+  padding-top: 60px;
+}
+
+.logo-footer {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7;
+  padding-bottom: 60px;
 }
 
 .contact-footer-address {
@@ -104,20 +149,32 @@ body {
 /* SEKCJA HERO */
 .hero {
   background-color: var(--background-color-section);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 200px 0;
 }
+
 .title-side {
+  text-align: center;
+  max-width: 696px;
   font-weight: 900;
   font-size: 44px;
-  text-align: center;
+  line-height: 1.4;
   color: var(--font-color-dark-background);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .btn-order {
+  padding: 10px 41px;
+  border-radius: 4px;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  text-align: center;
   color: var(--font-color-dark-background);
   /* button ma domyslne color: #000000 */
   background-color: var(--active-color);

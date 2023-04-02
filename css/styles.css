@@ -22,8 +22,8 @@ h3,
 h4,
 p,
 ul {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 /* SEKCJA POZYCJONOWANIA STRONY */
 .container {
@@ -39,7 +39,6 @@ ul {
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--font-color);
-  width: 1600px;
 }
 .header {
   border-bottom: 1px solid #ececec;
@@ -176,6 +175,7 @@ body {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
+  letter-spacing: 0.06em;
   color: var(--font-color-dark-background);
   /* button ma domyslne color: #000000 */
   background-color: var(--active-color);
@@ -194,6 +194,9 @@ body {
 }
 
 .text-part-list-item p {
+  letter-spacing: 0.03em;
+  
+  padding-top: 10px;
   line-height: 24px;
   color: var(--font-color-paragraph);
 }
@@ -226,12 +229,11 @@ body {
 
 .team-description {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-border: 1px solid var(--background-color-border);
-background-color: var(--background-color-main);
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  border: 1px solid var(--background-color-border);
+  background-color: var(--background-color-main);
 }
-
 
 .team-name,
 .team-profession {

@@ -303,14 +303,24 @@ body {
   flex-wrap: wrap;
   gap: 30px;
 }
+.gallery-list-item {
+  border: 1px solid #eeeeee;
+}
+.gallery-list-item-description {
+  padding: 20px 24px;
+}
 
 .gallery-item-name {
   font-weight: 700;
   font-size: 18px;
+  letter-spacing: 0.06em;
+  line-height: 36px;
 }
 
 .category {
   font-size: 16px;
   color: var(--font-color-paragraph);
+  letter-spacing: 0.03em;
+  line-height: 30px;
 }
 /* KONIEC PORTFOLIO */

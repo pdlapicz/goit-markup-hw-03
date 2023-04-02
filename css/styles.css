@@ -29,7 +29,7 @@ ul {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 15px auto;
 }
 
 .section {
@@ -185,25 +185,29 @@ body {
 /* SEKCJA TEKSTOWA */
 .text-part {
   padding-bottom: 94px;
+
   /* dla oddzielenia sekcji wewnetrznych, nie mozna osobno dac sekcji bo najda 2 paddingi */
 }
 
 .text-part-list {
   list-style: none;
-  padding: 0 auto;
   display: flex;
   gap: 30px;
 }
 
 .text-part-list-item h3 {
   font-weight: 700;
+  line-height: 1.1;
   font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .text-part-list-item p {
-  letter-spacing: 0.06em;
+  line-height: 1.7;
   padding-top: 10px;
   line-height: 24px;
+  letter-spacing: 0.03em;
   color: var(--font-color-paragraph);
 }
 
@@ -294,9 +298,6 @@ body {
 }
 /* galeria */
 
-.gallery {
-}
-
 .gallery-list {
   list-style: none;
   display: flex;
@@ -304,7 +305,9 @@ body {
   gap: 30px;
 }
 .gallery-list-item {
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .gallery-list-item-description {
   padding: 20px 24px;

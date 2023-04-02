@@ -303,6 +303,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  flex-basis: calc((100% - 20px) / 3);
 }
 .gallery-list-item {
   border-bottom: 1px solid #eeeeee;

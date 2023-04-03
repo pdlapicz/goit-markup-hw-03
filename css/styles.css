@@ -27,9 +27,10 @@ ul {
 }
 /* SEKCJA POZYCJONOWANIA STRONY */
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  padding: 15px auto;
+  padding: 0 15px;
+  max-width: 1200px;
 }
 
 .section {
@@ -37,7 +38,6 @@ ul {
   padding-bottom: 94px;
 }
 body {
-  width: 1600px;
   font-family: 'Roboto', sans-serif;
   color: var(--font-color);
 }
@@ -46,7 +46,8 @@ body {
 }
 
 .head-section {
-  display: flex;
+ display: flex;
+ align-items: flex-start;
 }
 
 .logo {
@@ -242,7 +243,6 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  border: 1px solid var(--background-color-border);
   background-color: var(--background-color-main);
 }
 

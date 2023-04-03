@@ -167,7 +167,7 @@ body {
 }
 
 .btn-order {
-  display:block;
+  display: block;
   margin-right: auto;
   margin-left: auto;
   padding: 10px 41px;
@@ -224,6 +224,8 @@ body {
 .what-do-list {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
 }
 
@@ -235,6 +237,8 @@ body {
 .team-list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   padding-top: 50px;
 }
@@ -273,6 +277,7 @@ body {
   list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 8px;
   padding-bottom: 50px;
 }
@@ -305,13 +310,14 @@ body {
   gap: 30px;
   flex-basis: calc((100% - 20px) / 3);
 }
+.gallery-list-item img {
+  display: block;
+}
 .gallery-list-item {
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
 }
 .gallery-list-item-description {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .gallery-item-name {

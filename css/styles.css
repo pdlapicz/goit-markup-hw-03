@@ -46,8 +46,7 @@ body {
 }
 
 .head-section {
- display: flex;
- align-items: flex-start;
+display: flex;
 }
 
 .logo {
@@ -74,7 +73,7 @@ body {
 .nav-header,
 .contact-header {
   padding-top: 32px;
-  padding-bottom: 32px;
+
 }
 
 .navigation {

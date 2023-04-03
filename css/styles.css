@@ -46,7 +46,7 @@ body {
 }
 
 .head-section {
-display: flex;
+  display: flex;
 }
 
 .logo {
@@ -73,7 +73,6 @@ display: flex;
 .nav-header,
 .contact-header {
   padding-top: 32px;
-
 }
 
 .navigation {
@@ -149,11 +148,7 @@ display: flex;
 /* SEKCJA HERO */
 .hero {
   background-color: var(--background-color-section);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+  display: block;
   padding: 200px 0;
 }
 
@@ -166,9 +161,15 @@ display: flex;
   color: var(--font-color-dark-background);
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  /* wysrodkowanie tekstu */
 }
 
 .btn-order {
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
   padding: 10px 41px;
   border-radius: 4px;
   border: 1px solid var(--active-color);

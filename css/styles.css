@@ -152,12 +152,16 @@ body {
   padding: 200px 0;
 }
 
+.hero h1 {
+  /* line-height: 1.7636; */
+}
+
 .title-side {
   text-align: center;
   max-width: 696px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 60px;
   color: var(--font-color-dark-background);
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -170,7 +174,7 @@ body {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding: 10px 41px;
+  padding: 8px 41px;
   border-radius: 4px;
   border: 1px solid var(--active-color);
   font-family: 'Roboto', sans-serif;
@@ -178,6 +182,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.06em;
+  line-height: 30px;
   color: var(--font-color-dark-background);
   /* button ma domyslne color: #000000 */
   background-color: var(--active-color);

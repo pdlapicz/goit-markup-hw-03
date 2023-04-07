@@ -116,7 +116,7 @@ body {
 
 .logo-footer {
   display: block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   width: fit-content;
 }
 
@@ -125,6 +125,8 @@ body {
   flex-direction: column;
   line-height: 1.7;
   width: fit-content;
+  gap: 9px;
+  font-size: 14px;
 }
 
 .contact-footer-address {
@@ -207,11 +209,12 @@ body {
   line-height: 1.1;
   font-size: 14px;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .text-part-list-item p {
-  padding-top: 10px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 1.7;
   color: var(--font-color-paragraph);
 }
 

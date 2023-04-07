@@ -111,19 +111,20 @@ body {
 
 .footer {
   background-color: var(--background-color-section);
-  padding-top: 60px;
+  padding: 60px 0;
 }
 
 .logo-footer {
   display: block;
   padding-bottom: 20px;
+  width: fit-content;
 }
 
 .contact-footer {
   display: flex;
   flex-direction: column;
   line-height: 1.7;
-  padding-bottom: 60px;
+  width: fit-content;
 }
 
 .contact-footer-address {
@@ -153,7 +154,7 @@ body {
 }
 
 .hero h1 {
-  /* line-height: 1.7636; */
+  line-height: 1.3636;
 }
 
 .title-side {
@@ -162,8 +163,8 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  color: var(--font-color-dark-background);
   letter-spacing: 0.06em;
+  color: var(--font-color-dark-background);
   text-transform: uppercase;
   padding-bottom: 30px;
   margin: 0 auto;
@@ -174,15 +175,15 @@ body {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding: 8px 41px;
+  padding: 9px 40px;
+  letter-spacing: 0.06em;
+  line-height: 30px;
   border-radius: 4px;
   border: 1px solid var(--active-color);
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
   font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 0.06em;
-  line-height: 30px;
+
   color: var(--font-color-dark-background);
   /* button ma domyslne color: #000000 */
   background-color: var(--active-color);
@@ -206,14 +207,11 @@ body {
   line-height: 1.1;
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
 .text-part-list-item p {
-  line-height: 1.7;
   padding-top: 10px;
   line-height: 24px;
-  letter-spacing: 0.03em;
   color: var(--font-color-paragraph);
 }
 
@@ -294,7 +292,10 @@ body {
   color: var(--font-color);
   border: 1px solid var(--background-color-btn-unactive);
   border-radius: 4px;
-  padding: 6px 22px;
+  padding: 5px 21px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
   /* bo domyslnie ma color:#ffffff */
 }
 

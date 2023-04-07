@@ -37,6 +37,10 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.list {
+  list-style: none;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--font-color);
@@ -76,7 +80,6 @@ body {
 }
 
 .navigation {
-  list-style: none;
   display: flex;
   gap: 46px;
   padding-right: 371px;
@@ -199,7 +202,6 @@ body {
 }
 
 .text-part-list {
-  list-style: none;
   display: flex;
   gap: 30px;
 }
@@ -232,7 +234,6 @@ body {
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
-  list-style: none;
 }
 
 /* SEKCJA TEAM */
@@ -241,7 +242,6 @@ body {
 }
 
 .team-list {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -262,7 +262,7 @@ body {
   justify-content: center; */
   text-align: center;
   /* jeszcze nie dziala */
-  font-size: 16px;
+  /* domyslnie 16px font-size */
 }
 
 .team-name {
@@ -280,7 +280,6 @@ body {
 /* @@@@@@@@@@STRONA PORTFOLIO@@@@@@@@@@@@ */
 /* przyciski do filtrowania */
 .filter-list {
-  list-style: none;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -289,7 +288,7 @@ body {
 }
 
 .btn-filter {
-  font-size: 16px;
+  /* domyslnie 16px font-size */
   font-family: 'Roboto', sans-serif;
   background-color: var(--background-color-btn-unactive);
   color: var(--font-color);
@@ -313,7 +312,6 @@ body {
 /* galeria */
 
 .gallery-list {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -336,7 +334,7 @@ body {
 }
 
 .category {
-  font-size: 16px;
+  /* domyslnie 16px font-size */
   color: var(--font-color-paragraph);
   letter-spacing: 0.03em;
   line-height: 30px;
